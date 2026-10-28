@@ -203,6 +203,10 @@ footer {
         grid-template-columns: 1fr 2fr;
     }
 
+    .board {
+        grid-template-columns: repeat(2, 1fr) repeat(4, 1fr);
+    }
+
     .card-container {
         grid-template-columns: repeat(2, 1fr);
     }
