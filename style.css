@@ -111,12 +111,12 @@ header {
 
 .change.new::before {
     content: "NEW";
-    color: var(--warm);
+    color: var(--warn);
 }
 
 .board {
     display: grid;
-    grid-template-columns: repeat(2, 1fr) repeat(4, 1fr);
+    grid-template-columns: 1fr;
     gap: var(--gap);
 }
 
